@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>eventInfo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click) = "checker()" >Console checker</ion-button>
+  <div *ngIf = "info != undefined">
+    <h1>{{info.name}}</h1>
+    <h2>{{info.promoters[0].name}}</h2>
+
+    <h2>{{info.dates.start.localDate}}</h2>
+    <h2>{{info.dates.start.localTime}}</h2>
+
+  </div>
+</ion-content>

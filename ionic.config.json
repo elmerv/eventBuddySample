@@ -1,0 +1,7 @@
+{
+  "name": "eventBuddy",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
